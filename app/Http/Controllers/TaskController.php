@@ -13,6 +13,7 @@ class TaskController extends Controller
          * validate imput
          * using the validate method 
          * to ensure all values are provided
+         * and are filled by the user
          */
 
         //NB: this works on objects to access properties and methods of objects
