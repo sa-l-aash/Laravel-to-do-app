@@ -16,6 +16,6 @@ class Task extends Model
         'deadline',
         'isComplete',
 
-    ]
+    ];
 
 }

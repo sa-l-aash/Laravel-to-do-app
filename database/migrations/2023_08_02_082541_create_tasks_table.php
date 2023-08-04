@@ -9,8 +9,10 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+    //creates the table in the database
     public function up(): void
     {
+        //'tasks' is the table name
         Schema::create('tasks', function (Blueprint $table) {
             //these will be our columns
             $table->id();//this is the primary key
@@ -26,6 +28,7 @@ return new class extends Migration
     /**
      * Reverse the migrations.
      */
+    //drops/deletes the table in te database
     public function down(): void
     {
         Schema::dropIfExists('tasks');
